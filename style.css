@@ -1,0 +1,107 @@
+body{
+    background-color:rgb(12, 5, 45);
+    display: flex;
+    flex-wrap: wrap;
+}
+ .heading{
+    display: flex;
+    position: sticky; 
+    color: azure;
+    background-color:#340a8f ;
+    width: 100%;
+    height: 56px;
+} 
+.heading .logo{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+.logo h3{
+    margin-top: 13px;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.logo button{
+    border-radius: 5px;
+    height: 40px;
+    width:100px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.navigation{
+    display: flex;
+    color: azure;
+    font-weight: 700;
+    align-items:center ;
+    background-color: #070329;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 115px;
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 100px;
+}
+.nav_bar{
+    margin-left: 20px;
+    font-size: 20px;
+    color: azure;
+}
+.nav_bar a{
+    color: azure;
+    font-size: 16px;
+}
+.signUp{
+    margin-left: 15px;
+}
+.nav-tabs a{
+     color: azure;
+    text-decoration: none;
+}
+.nav-tabs button{
+    color: azure;
+    background-color: #340a8f;
+    border-color: #340a8f;
+    margin-left: 20px;
+}
+.mainBox{
+    background-image: url("RazorPay.jpg");
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    background-size: cover;
+    margin-top: 160px;
+    padding: 10px;
+    color: azure;
+}
+.headin{
+    margin-top: 7%;
+    margin-left: 100px;
+    line-height: 0%;
+}
+.box{
+    width: 30px;
+    height: 4px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.text{
+    margin-top: 45px;
+    margin-left: 100px;
+    line-height: 1;
+    opacity: 0.7;
+}
+.btn-sm{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 45px;
+   
+}
+ .btn2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
